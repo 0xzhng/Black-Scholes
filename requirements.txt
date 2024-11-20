@@ -1,0 +1,11 @@
+streamlit
+yfinance
+pandas
+numpy
+scipy
+plotly
+sqlalchemy
+apscheduler
+pytest
+python-dotenv
+# Modified on 2024-11-20 00:00:00
