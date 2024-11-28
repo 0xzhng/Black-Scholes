@@ -24,3 +24,5 @@ streamlit run main.py\n\
 # Command to run the application
 CMD ["/app/start.sh"] 
 # Modified on 2024-11-28 00:00:00
+
+# Modified on 2024-11-28 00:00:00
