@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  # Main application
+  volatility-surface:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./volatility_surface.db:/app/volatility_surface.db
+    environment:
+      # Use SQLite by default (simpler setup)
+      - DATABASE_URL=sqlite:///volatility_surface.db
+      # For PostgreSQL, uncomment and adjust the line below:
+      # - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/volatility_surface
+      - SNAPSHOT_INTERVAL_MINUTES=60
+      - RISK_FREE_RATE=0.015
+      - DIVIDEND_YIELD=0.013
+      - MIN_STRIKE_PCT=80.0
+      - MAX_STRIKE_PCT=120.0
+    restart: unless-stopped
+    depends_on:
+      # Uncomment to enable PostgreSQL
+      # - postgres
+
+# Uncomment to enable PostgreSQL
+# volumes:
+#   postgres_data: 
+# Modified on 2024-11-28 00:00:00
