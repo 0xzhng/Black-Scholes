@@ -162,3 +162,5 @@ def get_snapshots_in_timerange(ticker_symbol, start_time, end_time):
     finally:
         session.close() 
 # Modified on 2024-11-29 00:00:00
+
+# Modified on 2024-11-30 00:00:00
