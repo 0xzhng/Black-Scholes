@@ -1,11 +1,39 @@
 # Black-Scholes Implied Volatility Surface 
-A streamlit app consisting of the Black-Scholes Model for displaying Implied Volatility surfaces. 
+A Streamlit application that enables users to visualize the Implied Volatility Surfaces of put and call options for an underlying security, based on the Black-Scholes-Merton model.
 
 ![NVIDIA Volatility Surface](img/NVDA.png)
 
 ![Broadcom Volatility Surface](img/AVGO.png)
 
-![Black-Scholes Formula](img/formula.png)
+## Call Option Price:
+$$ C = S_0 N(d_1) - X e^{-rT} N(d_2) $$
+
+## Put Option Price:
+$$ P = X e^{-rT} N(-d_2) - S_0 N(-d_1) $$
+
+## Definitions of Variables:
+
+- **C** = Price of a call option  
+- **P** = Price of a put option  
+- **S₀** = **Current price** of the underlying asset  
+- **X** = **Strike price** (exercise price of the option)  
+- **T** = **Time to expiration** (in years)  
+- **r** = **Risk-free interest rate** (continuously compounded)  
+- **σ** = **Volatility** (standard deviation of the underlying asset’s returns)  
+- **N(d)** = **Cumulative standard normal distribution function**  
+
+### \( d_1 \) and \( d_2 \) are calculated as:
+
+$$
+d_1 = \frac{\ln(S_0 / X) + (r + \sigma^2 / 2)T}{\sigma \sqrt{T}}
+$$
+
+$$
+d_2 = d_1 - \sigma \sqrt{T}
+$$
+
+### Video Explaining Black-Scholes:
+[![Black-Scholes Explanation](https://img.youtube.com/vi/pr-u4LCFYEY/0.jpg)](https://www.youtube.com/watch?v=pr-u4LCFYEY)
 
 ## Features
 
@@ -17,7 +45,7 @@ A streamlit app consisting of the Black-Scholes Model for displaying Implied Vol
 
 ### Installation
 
-#### Option 1: Local Installation (use a venv)
+#### Option 1: Local Installation (don't be a fool and use a venv)
 
 1. Install dependencies:
    ```
@@ -114,6 +142,3 @@ The included Docker configuration provides a simple way to deploy the applicatio
 
 MIT
 
-## Author
-
-rynn | rynn@zhng.dev 
