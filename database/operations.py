@@ -161,48 +161,4 @@ def get_snapshots_in_timerange(ticker_symbol, start_time, end_time):
         return result
     finally:
         session.close() 
-# Modified on 2024-11-29 00:00:00
 
-# Modified on 2024-11-30 00:00:00
-
-# Modified on 2024-12-05 00:00:00
-
-# Modified on 2024-12-08 00:00:00
-
-# Modified on 2024-12-16 00:00:00
-
-# Modified on 2024-12-18 00:00:00
-
-# Modified on 2025-01-15 00:00:00
-
-# Modified on 2025-01-16 00:00:00
-
-# Modified on 2025-01-25 00:00:00
-
-# Modified on 2025-01-30 00:00:00
-
-# Modified on 2025-02-01 00:00:00
-
-# Modified on 2025-02-07 00:00:00
-
-# Modified on 2025-02-09 00:00:00
-
-# Modified on 2025-02-17 00:00:00
-
-# Modified on 2025-02-19 00:00:00
-
-# Modified on 2025-02-23 00:00:00
-
-# Modified on 2025-02-28 00:00:00
-
-# Modified on 2025-03-02 00:00:00
-
-# Modified on 2025-03-02 00:00:00
-
-# Modified on 2025-03-12 00:00:00
-
-# Modified on 2025-03-13 00:00:00
-
-# Modified on 2025-03-15 00:00:00
-
-# Modified on 2025-03-16 00:00:00

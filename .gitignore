@@ -23,10 +23,9 @@ var/
 *.db
 *.sqlite
 *.sqlite3
-.vscode/
 *.swp
 *.swo
+venv/ 
 
 
 
-# Modified on 2024-11-20 00:00:00

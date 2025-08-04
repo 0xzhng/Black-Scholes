@@ -63,48 +63,4 @@ if __name__ == "__main__":
             time.sleep(1)
     except (KeyboardInterrupt, SystemExit):
         stop_server(scheduler, stop_event) 
-# Modified on 2024-12-03 00:00:00
 
-# Modified on 2024-12-05 00:00:00
-
-# Modified on 2024-12-12 00:00:00
-
-# Modified on 2024-12-14 00:00:00
-
-# Modified on 2024-12-28 00:00:00
-
-# Modified on 2025-01-04 00:00:00
-
-# Modified on 2025-01-13 00:00:00
-
-# Modified on 2025-01-13 00:00:00
-
-# Modified on 2025-01-16 00:00:00
-
-# Modified on 2025-01-16 00:00:00
-
-# Modified on 2025-01-26 00:00:00
-
-# Modified on 2025-01-27 00:00:00
-
-# Modified on 2025-02-01 00:00:00
-
-# Modified on 2025-02-15 00:00:00
-
-# Modified on 2025-02-23 00:00:00
-
-# Modified on 2025-02-24 00:00:00
-
-# Modified on 2025-02-26 00:00:00
-
-# Modified on 2025-03-02 00:00:00
-
-# Modified on 2025-03-04 00:00:00
-
-# Modified on 2025-03-10 00:00:00
-
-# Modified on 2025-03-12 00:00:00
-
-# Modified on 2025-03-13 00:00:00
-
-# Modified on 2025-03-16 00:00:00

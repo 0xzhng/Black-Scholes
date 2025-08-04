@@ -1,4 +1,3 @@
-import streamlit as st
 import yfinance as yf
 import pandas as pd
 import numpy as np
@@ -11,6 +10,7 @@ import os
 import argparse
 import sys
 from dotenv import load_dotenv
+import streamlit as st
 from database.models import init_db
 from database.operations import (
     get_active_tickers, set_ticker_active, get_or_create_ticker,
@@ -913,44 +913,3 @@ st.write("---")
 st.markdown(
     "Created by rynn  | zhng.dev | rynn@zhng.dev"
 )
-# Modified on 2024-11-21 00:00:00
-
-# Modified on 2024-12-03 00:00:00
-
-# Modified on 2024-12-13 00:00:00
-
-# Modified on 2024-12-22 00:00:00
-
-# Modified on 2025-01-04 00:00:00
-
-# Modified on 2025-01-07 00:00:00
-
-# Modified on 2025-01-13 00:00:00
-
-# Modified on 2025-01-15 00:00:00
-
-# Modified on 2025-01-22 00:00:00
-
-# Modified on 2025-01-25 00:00:00
-
-# Modified on 2025-02-01 00:00:00
-
-# Modified on 2025-02-13 00:00:00
-
-# Modified on 2025-02-21 00:00:00
-
-# Modified on 2025-02-23 00:00:00
-
-# Modified on 2025-02-24 00:00:00
-
-# Modified on 2025-03-01 00:00:00
-
-# Modified on 2025-03-12 00:00:00
-
-# Modified on 2025-03-15 00:00:00
-
-# Modified on 2025-03-16 00:00:00
-
-# Modified on 2025-03-16 00:00:00
-
-# Modified on 2025-03-16 00:00:00

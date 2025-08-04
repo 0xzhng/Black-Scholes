@@ -66,22 +66,12 @@ $$
 
 ## Running the Application
 
-### Option 1: Using the run.py script 
+### Option 1: Direct Streamlit execution (Recommended)
 
-The easiest way to run the application is to use the `run.py` script, which will start both the data collection server and the Streamlit UI:
-
-# Run the application
-python run.py
-```
-
-You can also run only the server or only the UI:
+The easiest way to run the application is to use Streamlit directly with `main.py`, which automatically starts both the data collection server and the UI:
 
 ```bash
-# Run only the data collection server
-python run.py --server-only
-
-# Run only the Streamlit UI
-python run.py --ui-only
+streamlit run main.py
 ```
 
 ### Option 2: Running components separately
@@ -90,13 +80,11 @@ If you prefer to run the components separately, you can do so:
 
 1. Start the data collection server:
 ```bash
-source venv/bin/activate
 python -m utils.server
 ```
 
 2. In a separate terminal, start the Streamlit UI:
 ```bash
-source venv/bin/activate
 streamlit run main.py
 ```
 

@@ -16,8 +16,8 @@ services:
       - SNAPSHOT_INTERVAL_MINUTES=60
       - RISK_FREE_RATE=0.015
       - DIVIDEND_YIELD=0.013
-      - MIN_STRIKE_PCT=80.0
-      - MAX_STRIKE_PCT=120.0
+      - MIN_STRIKE_PCT=10
+      - MAX_STRIKE_PCT=500
     restart: unless-stopped
     depends_on:
       # Uncomment to enable PostgreSQL
@@ -26,44 +26,3 @@ services:
 # Uncomment to enable PostgreSQL
 # volumes:
 #   postgres_data: 
-# Modified on 2024-11-28 00:00:00
-
-# Modified on 2024-12-05 00:00:00
-
-# Modified on 2024-12-05 00:00:00
-
-# Modified on 2024-12-13 00:00:00
-
-# Modified on 2024-12-20 00:00:00
-
-# Modified on 2024-12-22 00:00:00
-
-# Modified on 2024-12-29 00:00:00
-
-# Modified on 2025-01-03 00:00:00
-
-# Modified on 2025-01-16 00:00:00
-
-# Modified on 2025-01-17 00:00:00
-
-# Modified on 2025-01-27 00:00:00
-
-# Modified on 2025-02-15 00:00:00
-
-# Modified on 2025-02-22 00:00:00
-
-# Modified on 2025-02-24 00:00:00
-
-# Modified on 2025-02-25 00:00:00
-
-# Modified on 2025-02-25 00:00:00
-
-# Modified on 2025-03-04 00:00:00
-
-# Modified on 2025-03-06 00:00:00
-
-# Modified on 2025-03-11 00:00:00
-
-# Modified on 2025-03-16 00:00:00
-
-# Modified on 2025-03-16 00:00:00

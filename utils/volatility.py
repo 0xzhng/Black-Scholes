@@ -3,7 +3,6 @@ from scipy.stats import norm
 from scipy.optimize import brentq
 
 
-# jesus fucking christ, probs the most complex function i ever wrote 
 def bs_call_price(S, K, T, r, sigma, q=0):
     """Calculate Black-Scholes call option price"""
     d1 = (np.log(S / K) + (r - q + 0.5 * sigma ** 2) * T) / (sigma * np.sqrt(T))
@@ -46,44 +45,4 @@ def calculate_implied_volatility(options_df, spot_price, risk_free_rate, dividen
     options_df['moneyness'] = options_df['strike'] / spot_price
     
     return options_df 
-# Modified on 2024-12-12 00:00:00
 
-# Modified on 2024-12-18 00:00:00
-
-# Modified on 2024-12-25 00:00:00
-
-# Modified on 2024-12-28 00:00:00
-
-# Modified on 2025-01-03 00:00:00
-
-# Modified on 2025-01-04 00:00:00
-
-# Modified on 2025-01-10 00:00:00
-
-# Modified on 2025-01-13 00:00:00
-
-# Modified on 2025-01-25 00:00:00
-
-# Modified on 2025-01-27 00:00:00
-
-# Modified on 2025-01-27 00:00:00
-
-# Modified on 2025-02-11 00:00:00
-
-# Modified on 2025-02-13 00:00:00
-
-# Modified on 2025-02-20 00:00:00
-
-# Modified on 2025-02-21 00:00:00
-
-# Modified on 2025-02-21 00:00:00
-
-# Modified on 2025-03-04 00:00:00
-
-# Modified on 2025-03-08 00:00:00
-
-# Modified on 2025-03-13 00:00:00
-
-# Modified on 2025-03-16 00:00:00
-
-# Modified on 2025-03-16 00:00:00
